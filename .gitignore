@@ -1,0 +1,46 @@
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Uploaded Media & Temporary files
+backend/uploads/*.mp4
+backend/uploads/*.avi
+backend/uploads/*.mov
+backend/uploads/*.webm
+backend/uploads/*.mkv
+!backend/uploads/.gitkeep
+
+# Persistent Database (do not commit actual production data)
+backend/instance/*.db
+backend/instance/*.sqlite3
+!backend/instance/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
