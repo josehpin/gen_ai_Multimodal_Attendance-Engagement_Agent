@@ -1,0 +1,9 @@
+{
+  "name": "multimodal-attendance-engagement-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multimodal Attendance & Engagement Agent",
+  "scripts": {
+    "build": "cd frontend && npm run build"
+  }
+}
